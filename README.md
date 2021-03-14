@@ -23,6 +23,7 @@ This audit will ensure votes are recorded and tallied accurately. In addition to
 ### Audit Resources
 - Data Source: [election_results](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/election_results.csv)
 - Software Python: Software: Python 3.7.6, Visual Studio Code, 1.38.1
+- Script: [PyPoll](https://github.com/dwwatson1/Election_Analysis/blob/main/PyPoll.py)
 
 ### Election Audit Results
 The analysis of the election showed that (also shown here [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt)):
@@ -42,6 +43,7 @@ The analysis of the election showed that (also shown here [election_analysis](ht
 ### Audit Resources
 - Data Source: [election_results](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/election_results.csv)
 - Software Python: Software: Python 3.7.6, Visual Studio Code, 1.38.1
+- Script: [PyPoll_Challenge](https://github.com/dwwatson1/Election_Analysis/blob/main/PyPoll_Challenge.py)
 
 ### Election Audit Results
 The analysis of the election showed that (also shown here [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt)):
