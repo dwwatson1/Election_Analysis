@@ -28,10 +28,14 @@ This audit will ensure votes are recorded and tallied accurately. In addition to
 ### Election Audit Results
 The analysis of the election showed that (also shown here [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt)):
 - There were 369,711 votes cast in the election
+- Method:
+![Total_Vote](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Total_Votes.PNG)
 - The candidates were
   - Charles Casper Stockham
   - Diana DeGette
   - Raymon Anthony Doane
+  - Method:
+![Candidate_Name](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Candidate_Name.PNG)
 - The candidate results were
   - Charles Casper Stockham received 23.0% of the vote with 85,213 votes
   - Diana DeGette received 73.8% received 73.8% of the vote with 272,892 votes
