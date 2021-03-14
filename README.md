@@ -37,7 +37,10 @@ The analysis of the election showed that (also shown here [election_analysis](ht
   - Diana DeGette received 73.8% received 73.8% of the vote with 272,892 votes
   - Raymon Anthony Doane received 3.1% of the vote with 11,606 votes
 - The winner of the election was
-  - **Diana DeGette received 73.8% received 73.8% of the vote with 272,892 votes**
+  - **Diana DeGette received 73.8% of the vote with 272,892 votes**
+ 
+To display Diana DeGette as the winning candidate with her vote count and winning percentage in the [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt) txt file, I ended the script with the follow f-string:
+[Winning_Candidate](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Winning_Name.PNG)
 
 ## Part 2 - Audit of Results by County
 ### Audit Resources
@@ -58,5 +61,8 @@ The analysis of the election showed that (also shown here [election_analysis](ht
   - Jefferson accounted 10.5% of the vote with 38,855 votes
 - The largest county turnout was
   - **Denver accounted 82.8% of the vote with 306,055 votes**
+  - 
+To display Denver with the largest county turnout with hits vote count and turnout percentage in the [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt) txt file, I ended the script with the follow f-string:
+[Winning_County](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Winning_County.PNG)
 
 ## Election Audit Summary
