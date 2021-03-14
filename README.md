@@ -1,2 +1,4 @@
 # Election_Analysis
-Performing analysis on Colorado election results
+## Project Overview
+
+A Colorado Board of Elections employee gave me the following tasks to complete the election audit of a recent local congressional election.
