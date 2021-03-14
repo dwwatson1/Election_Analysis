@@ -36,7 +36,7 @@ The analysis of the election showed that (also shown here [election_analysis](ht
   - Diana DeGette received 73.8% received 73.8% of the vote with 272,892 votes
   - Raymon Anthony Doane received 3.1% of the vote with 11,606 votes
 - The winner of the election was
-  - Diana DeGette received 73.8% received 73.8% of the vote with 272,892 votes
+  - **Diana DeGette received 73.8% received 73.8% of the vote with 272,892 votes**
 
 ## Part 2
 ### Audit Resources
@@ -55,6 +55,6 @@ The analysis of the election showed that (also shown here [election_analysis](ht
   - Denver accounted 82.8% of the vote with 306,055 votes
   - Jefferson accounted 10.5% of the vote with 38,855 votes
 - The largest county turnout was
-  - Denver accounted 82.8% of the vote with 306,055 votes
+  - **Denver accounted 82.8% of the vote with 306,055 votes**
 
 ## Election Audit Summary
