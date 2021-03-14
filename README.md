@@ -19,7 +19,7 @@ A Colorado Board of Elections employee gave me the following tasks, split into t
 
 This audit will ensure votes are recorded and tallied accurately. In addition to the audit, my careful analysis will ensure the integrity of the vote the help the Colorado Board of Elections respond effectively to allegations of fraud and error.
 
-## Part 1
+## Part 1 - Audit of Results by Candidate
 ### Audit Resources
 - Data Source: [election_results](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/election_results.csv)
 - Software Python: Software: Python 3.7.6, Visual Studio Code, 1.38.1
@@ -38,7 +38,7 @@ The analysis of the election showed that (also shown here [election_analysis](ht
 - The winner of the election was
   - **Diana DeGette received 73.8% received 73.8% of the vote with 272,892 votes**
 
-## Part 2
+## Part 2 - Audit of Results by County
 ### Audit Resources
 - Data Source: [election_results](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/election_results.csv)
 - Software Python: Software: Python 3.7.6, Visual Studio Code, 1.38.1
