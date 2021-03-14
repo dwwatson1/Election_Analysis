@@ -41,7 +41,7 @@ The analysis of the election showed that (also shown here [election_analysis](ht
  
 To display Diana DeGette as the winning candidate with her vote count and winning percentage in the [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt) txt file, I ended the script with the follow f-string:
 
-![Winning_Candidate](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Winning_Name.PNG)
+![Winning_Candidate](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Winning_Candidate.PNG)
 
 ## Part 2 - Audit of Results by County
 ### Audit Resources
