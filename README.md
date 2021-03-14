@@ -68,3 +68,8 @@ To display Denver with the largest county turnout with hits vote count and turno
 ![Winning_County](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Winning_County.PNG)
 
 ## Election Audit Summary
+### Application to Future Elections
+
+
+## Project Difficulties
+I had trouble completing git commits using GitBash. However, in realizing my initial error, I learn more about GitBash and a command lines than I would have had I not made this error. My initial error was naming my election analysis project __/Election-Analysis__ rather than __/Election_Analysis__. This caused an error in GitBash. I tried to rectify the error by renaming it to __/Election_Analysis__ and merging the data from __/Election-Analysis__. I ended up going down a deeper hole that I felt might erase all my work. I learned a lot from this experience (thanks for the tips Zeb!) and am confident I can nail this task in future projects.  
