@@ -17,7 +17,7 @@ A Colorado Board of Elections employee gave me the following tasks, split into t
 4. Calculate the percentage of votes is attributed to each county.
 5. Determine the largest county turnout based on popular vote.
 
-This audit will ensure votes are recorded and tallied accurately. In addition to the audit, my careful analysis will ensure the integrity of the vote the help the Colorado Board of Elections respond effectively to allegations of fraud and error.
+This audit will ensure votes are recorded and tallied accurately. In addition to the audit, my careful analysis will ensure the integrity of the vote to help the Colorado Board of Elections respond effectively to allegations of fraud and error.
 
 ## Part 1 - Audit of Results by Candidate
 ### Audit Resources
@@ -63,7 +63,7 @@ The analysis of the election showed that (also shown here [election_analysis](ht
 - The largest county turnout was
   - **Denver accounted for 82.8% of the vote with 306,055 votes**
 
-To display Denver with the largest county turnout with hits vote count and turnout percentage in the [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt) txt file, I ended the script with the following f-string:
+To display Denver with the largest county turnout and its vote count and turnout percentage in the [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt) txt file, I ended the script with the following f-string:
 
 ![Winning_County](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Winning_County.PNG)
 
@@ -80,7 +80,7 @@ The [PyPoll_Challenge](https://github.com/dwwatson1/Election_Analysis/blob/main/
 
 ![Contest_List](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Contest_List.PNG)
 
-Before we can call this complete, we would also need to account for duplicate ballots numbers showing up. For example, Ballot ID: 1322913 in cell A2 might show up 6 times in a presidential year assuming that ID votes in 3 local elections, 1 congressional election, 1 Senate election, and 1 presidential election. This could be very useful to determine the rare cases when voters decided to say only vote for the president instead of voting for every option on the ballot.
+Before we can call this complete, we would also need to account for duplicate ballots numbers showing up. For example, Ballot ID: 1322913 in cell A2 might show up 6 times in a presidential year assuming that ID votes in 3 local elections, 1 congressional election, 1 Senate election, and 1 presidential election. This could be useful to determine, for example, how many voters only cast their ballot for the president instead of voting for every option on the ballot.
 
 ## Project Difficulties
-I had trouble completing git commits using GitBash. However, in realizing my initial error, I learned more about GitBash and command lines than I would have had I not made this error. My initial error was naming my election analysis project __/Election-Analysis__ rather than __/Election_Analysis__. This caused an error in GitBash. I tried to rectify the error by renaming it to __/Election_Analysis__ and merging the data from __/Election-Analysis__. I ended up going down a deeper hole that I felt might erase all my work. I learned a lot from this experience (thanks for the tips Zeb!) and am confident I can nail this task in future projects.  
+I had trouble completing git commits using GitBash. However, in realizing my initial error, I learned more about GitBash and command lines than I would have had I not made this error. My initial error was naming my election analysis project __/Election-Analysis__ rather than __/Election_Analysis__. This caused an error in GitBash because I had named my folder on my local drive Election_Analysis. I tried to rectify the error by renaming my GitHub respository __/Election_Analysis__ and merging the data from __/Election-Analysis__. I ended up going down a deeper hole that I felt might erase all my work. I learned a lot from this experience (thanks for the tips Zeb!) and am confident I can nail this task in future projects.  
