@@ -69,7 +69,7 @@ To display Denver with the largest county turnout with hits vote count and turno
 
 ## Election Audit Summary
 ### Audit Summary
-This election audit demnonstrated that Diana DeGette won re-election to Colorado's First Congressional District with 73.8% of the vote and 272,892 votes. Denver County had the largest county turnout and accounted for 82.8% of the vote with 306,055 votes.
+This election audit demonstrated that Diana DeGette won re-election to Colorado's First Congressional District with 73.8% of the vote and 272,892 votes. Denver County had the largest county turnout and accounted for 82.8% of the vote with 306,055 votes.
 
 ### Application to Future Elections
 The [PyPoll_Challenge](https://github.com/dwwatson1/Election_Analysis/blob/main/PyPoll_Challenge.py) Script can easily be modified to perform audits across all Colorado Congressional Districts or statewide elections, such as presidential, gubernatorial, and Senate elections. I investigated the Colorado Secretary of State site for how they organize their [election data](https://results.enr.clarityelections.com/CO/105975/web.275533/#/summary?category=C_1). They have a category for contest names. If we added a column called __Contest Name__ we could extract data on statewide elections down to local ones. All we would need to do is create a dictionary and list and modify our string. In this case, I replaced the county name with the contest name. Then, we would need to tweak our if statement and loop to get the contest name from the contest dictionary.
