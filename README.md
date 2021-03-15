@@ -8,7 +8,7 @@ A Colorado Board of Elections employee gave me the following tasks, split into t
 2. Get a complete list of candidates who received votes.
 3. Calculate the total number of votes each candidate received.
 4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+5. Determine the winner of the election based on the popular vote.
 
 **Part 2 - Audit of Results by County**
 1. Calculate the total number of votes cast.
@@ -39,7 +39,7 @@ The analysis of the election showed that (also shown here [election_analysis](ht
 - The winner of the election was
   - **Diana DeGette received 73.8% of the vote with 272,892 votes**
  
-To display Diana DeGette as the winning candidate with her vote count and winning percentage in the [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt) txt file, I ended the script with the follow f-string:
+To display Diana DeGette as the winning candidate with her vote count and winning percentage in the [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt) txt file, I ended the script with the following f-string:
 
 ![Winning_Candidate](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Winning_Candidate.PNG)
 
@@ -57,13 +57,13 @@ The analysis of the election showed that (also shown here [election_analysis](ht
   - Denver
   - Jefferson
 - The county results were
-  - Arapahoe accounted 6.7% of the vote with 24,801 votes
-  - Denver accounted 82.8% of the vote with 306,055 votes
-  - Jefferson accounted 10.5% of the vote with 38,855 votes
+  - Arapahoe accounted for 6.7% of the vote with 24,801 votes
+  - Denver accounted for 82.8% of the vote with 306,055 votes
+  - Jefferson accounted for 10.5% of the vote with 38,855 votes
 - The largest county turnout was
-  - **Denver accounted 82.8% of the vote with 306,055 votes**
+  - **Denver accounted for 82.8% of the vote with 306,055 votes**
   - 
-To display Denver with the largest county turnout with hits vote count and turnout percentage in the [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt) txt file, I ended the script with the follow f-string:
+To display Denver with the largest county turnout with hits vote count and turnout percentage in the [election_analysis](https://github.com/dwwatson1/Election_Analysis/blob/main/analysis/election_analysis.txt) txt file, I ended the script with the following f-string:
 
 ![Winning_County](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Winning_County.PNG)
 
@@ -71,7 +71,7 @@ To display Denver with the largest county turnout with hits vote count and turno
 ### Audit Summary
 
 ### Application to Future Elections
-The [PyPoll_Challenge](https://github.com/dwwatson1/Election_Analysis/blob/main/PyPoll_Challenge.py) Script can easily be modified to perform audits across all Colorado Congressional Districts or statewide elections, such as presidential, gubernatorial and Senate elections. I investigated the Colorado Secretary of State site for how they organize their [election data](https://results.enr.clarityelections.com/CO/105975/web.275533/#/summary?category=C_1). They have a category for contest name. If we added a column called __Contest Name__ we could extract data on statewide elections all the way down to local ones. All we would need to do is create a dictionary and list and modify our string. In this case, I replaced county name with contest name. Then, we would need to tweak our if statement and loop to get contest name from the contest dictionary.
+The [PyPoll_Challenge](https://github.com/dwwatson1/Election_Analysis/blob/main/PyPoll_Challenge.py) Script can easily be modified to perform audits across all Colorado Congressional Districts or statewide elections, such as presidential, gubernatorial, and Senate elections. I investigated the Colorado Secretary of State site for how they organize their [election data](https://results.enr.clarityelections.com/CO/105975/web.275533/#/summary?category=C_1). They have a category for contest names. If we added a column called __Contest Name__ we could extract data on statewide elections down to local ones. All we would need to do is create a dictionary and list and modify our string. In this case, I replaced the county name with the contest name. Then, we would need to tweak our if statement and loop to get the contest name from the contest dictionary.
 
 ![Contest_Name](https://github.com/dwwatson1/Election_Analysis/blob/main/Resources/Contest_Name.PNG)
 
@@ -82,4 +82,4 @@ The [PyPoll_Challenge](https://github.com/dwwatson1/Election_Analysis/blob/main/
 Before we can call this complete, we would also need to account for duplicate ballots numbers showing up. For example, Ballot ID: 1322913 in cell A2 might show up 6 times in a presidential year assuming that ID votes in 3 local elections, 1 congressional election, 1 Senate election, and 1 presidential election. This could be very useful to determine the rare cases when voters decided to say only vote for the president instead of voting for every option on the ballot.
 
 ## Project Difficulties
-I had trouble completing git commits using GitBash. However, in realizing my initial error, I learn more about GitBash and a command lines than I would have had I not made this error. My initial error was naming my election analysis project __/Election-Analysis__ rather than __/Election_Analysis__. This caused an error in GitBash. I tried to rectify the error by renaming it to __/Election_Analysis__ and merging the data from __/Election-Analysis__. I ended up going down a deeper hole that I felt might erase all my work. I learned a lot from this experience (thanks for the tips Zeb!) and am confident I can nail this task in future projects.  
+I had trouble completing git commits using GitBash. However, in realizing my initial error, I learned more about GitBash and command lines than I would have had I not made this error. My initial error was naming my election analysis project __/Election-Analysis__ rather than __/Election_Analysis__. This caused an error in GitBash. I tried to rectify the error by renaming it to __/Election_Analysis__ and merging the data from __/Election-Analysis__. I ended up going down a deeper hole that I felt might erase all my work. I learned a lot from this experience (thanks for the tips Zeb!) and am confident I can nail this task in future projects.  
