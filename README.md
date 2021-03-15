@@ -1,4 +1,4 @@
-# Election_Analysis
+# Election Analysis of Colorado's First Congressional District
 ## Overview of Election Audit
 
 A Colorado Board of Elections employee gave me the following tasks, split into two parts, to complete the election audit of a recent local congressional election.
